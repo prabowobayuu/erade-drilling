@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+body {
+    max-width: 600px;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    color: black;
+}
+
+.konten{
+    background-image: url('../img/images1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+    width: 100%;
+}
+
+/* hero style */
+.hero {
+    background-color: #8a6350;
+    height: 100%; /* Tinggi hero sebesar tinggi viewport */
+    width: 600px; /* Lebar hero mengikuti lebar layar */
+    max-width: 600px; /* Maksimum lebar hero */
+    margin: 0 auto;/*  Agar hero berada di tengah secara horizontal */
+    display: flex;
+    flex-direction: column; /* Mengatur konten secara vertikal */
+    align-items: center; /* Menyelaraskan konten secara horizontal di tengah */
+    justify-content: center; /* Menyebarkan konten dengan jarak antara elemen */
+    
+    position: relative;
+}
+
+.hero .logo {
+    max-width: 600px; /* Ukuran logo tetap */
+    width: 300px;
+    height: auto;
+    margin-bottom: 20px; /* Jarak logo dari konten di bawahnya */
+}
+
+.hero .konten {
+    text-align: center; /* Menyelaraskan teks di dalam konten ke tengah */
+    color: #8a6350; /* Warna teks utama */
+}
+
+.hero .konten h1, .hero .konten h2 {
+    text-shadow: 
+        -3px -3px 0 #fff,  
+        3px -3px 0 #fff,
+        -3px 3px 0 #fff,
+        3px 3px 0 #fff; /* Membuat outline berwarna putih */
+    line-height: 1.2;
+    margin: -10px 0; /* Jarak antar elemen teks */
+}
+
+.konten h1 {
+    font-size: 40px;
+}
+
+.konten h2 {
+    font-size: 40px; /* Ukuran font untuk h2 bisa disesuaikan */
+}
+
+.jasa {
+    font-size: 2em;
+    font-weight: 600;
+    background-color: #8a6350;
+    color: white;
+    padding: 20px;
+    /* Jarak vertikal di sekitar paragraf */
+    width: 100%; /* Membuat paragraf mengikuti lebar konten */
+    text-align: center; /* Menyelaraskan teks di dalam paragraf ke tengah */
+}
+
+.paragraf-1 {
+    margin-top: 20px;
+    text-align: center;
+    color: black;
+    width: 600px;
+}
+
+.paragraf-1 .text-1 {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 30px;
+}
+
+.my-4 .card .list-item {
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+/* hubungi kami */
+.cta-button {
+    display: inline-flex;
+    align-items: center;
+    background-color: #25D366;
+    /* Warna hijau khas WhatsApp */
+    color: white;
+    padding: 12px 24px;
+    border: 2px solid white;
+    border-radius: 30px;
+    /* Membuat tepi tombol membulat */
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    /* Bayangan untuk memberi efek timbul */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #1EBE56;
+    /* Warna hijau yang lebih gelap saat di-hover */
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.cta-button i {
+    text-align: center;
+    margin-right: 16px;
+    font-size: 32px;
+}
+
+.konten-why {
+    max-width: 600px; 
+    width: 600px;
+    background-color: #BBA188;
+    max-height: 1000px;
+    height: 812px;
+}
+
+.konten-projek {
+    max-width: 600px; 
+    width: 600px;
+    background-color: #ffffff;
+    max-height: 1700px;
+    height: 100%;
+}
+
+/* hero style end */
+
+/* laptop */
+/* @media (max-width: 1200px) {
+    .hero {
+        max-width: 100%;
+    }
+} */
+
+/* tablet */
+/* @media (max-width: 768px) {
+    .hero {
+        height: 80vh;
+    }
+} */
+
+/* hp */
+/* @media (max-width: 600px) {
+    .hero {
+        height: 70vh;
+    }
+    html {
+        font-size: 55%;
+    } */
+/* } */
+
