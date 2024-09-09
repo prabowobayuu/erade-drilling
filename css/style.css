@@ -21,6 +21,7 @@ body {
     background-size: cover;
     background-position: center;
     height: 650px;
+    max-width: 600px;
     width: 100%;
 }
 
@@ -29,7 +30,7 @@ body {
     background-color: #8a6350;
     height: 100%; /* Tinggi hero sebesar tinggi viewport */
     width: 600px; /* Lebar hero mengikuti lebar layar */
-    max-width: 600px; /* Maksimum lebar hero */
+    max-width: 100%; /* Maksimum lebar hero */
     margin: 0 auto;/*  Agar hero berada di tengah secara horizontal */
     display: flex;
     flex-direction: column; /* Mengatur konten secara vertikal */
@@ -41,7 +42,7 @@ body {
 
 .hero .logo {
     max-width: 600px; /* Ukuran logo tetap */
-    width: 300px;
+    width: 50%;
     height: auto;
     margin-bottom: 20px; /* Jarak logo dari konten di bawahnya */
 }
@@ -65,10 +66,6 @@ body {
     font-size: 40px;
 }
 
-.konten h2 {
-    font-size: 40px; /* Ukuran font untuk h2 bisa disesuaikan */
-}
-
 .jasa {
     font-size: 2em;
     font-weight: 600;
@@ -76,6 +73,7 @@ body {
     color: white;
     padding: 20px;
     /* Jarak vertikal di sekitar paragraf */
+    max-width: 600px;
     width: 100%; /* Membuat paragraf mengikuti lebar konten */
     text-align: center; /* Menyelaraskan teks di dalam paragraf ke tengah */
 }
@@ -84,7 +82,8 @@ body {
     margin-top: 20px;
     text-align: center;
     color: black;
-    width: 600px;
+    max-width: 600px;
+    width: 100%;
 }
 
 .paragraf-1 .text-1 {
@@ -133,15 +132,15 @@ body {
 
 .konten-why {
     max-width: 600px; 
-    width: 600px;
+    width: 100%;
     background-color: #BBA188;
-    max-height: 1000px;
-    height: 812px;
+    height: 100%;
+    padding-bottom: 50px;
 }
 
 .konten-projek {
     max-width: 600px; 
-    width: 600px;
+    width: 100%;
     background-color: #ffffff;
     max-height: 1700px;
     height: 100%;
